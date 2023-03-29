@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@ComponentScan(basePackages = {"com.atguigu"})
+@ComponentScan(basePackages = {"com.cj"})
 @EnableDiscoveryClient
 public class OssApplication {
     public static void main(String[] args) {

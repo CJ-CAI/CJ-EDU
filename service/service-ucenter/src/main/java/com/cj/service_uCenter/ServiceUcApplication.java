@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.atguigu"})
+@ComponentScan({"com.cj"})
 @MapperScan("com.cj.service_uCenter.mapper")
 @EnableDiscoveryClient
 public class ServiceUcApplication {

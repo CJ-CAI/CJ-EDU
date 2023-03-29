@@ -38,6 +38,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
             <scope>provided </scope>
         </dependency>
         <!--swagger-->
@@ -63,6 +64,5 @@
             <version>2.6.0</version>
         </dependency>
     </dependencies>
-
 
 </project>

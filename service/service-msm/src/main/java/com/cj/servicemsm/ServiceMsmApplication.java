@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@ComponentScan({"com.atguigu"})
+@ComponentScan({"com.cj"})
 @EnableDiscoveryClient
 public class ServiceMsmApplication {
     public static void main(String[] args) {

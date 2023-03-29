@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.atguigu"})
+@ComponentScan({"com.cj"})
 @MapperScan("com.cj.servicecms.mapper")
 @EnableDiscoveryClient
 @EnableFeignClients

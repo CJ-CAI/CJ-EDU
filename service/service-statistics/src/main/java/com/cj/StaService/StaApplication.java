@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@ComponentScan("com.atguigu")
+@ComponentScan("com.cj")
 @MapperScan("com.cj.StaService.mapper")
 @EnableDiscoveryClient
 @EnableFeignClients
